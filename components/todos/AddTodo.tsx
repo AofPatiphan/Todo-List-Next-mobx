@@ -1,6 +1,6 @@
-import todosStore from "../../../stores/todoStore"
 import { observer } from 'mobx-react-lite'
 import { FormEvent, ChangeEvent } from "react"
+import todosStore from '../../stores/todoStore'
 
 function AddTodo() {
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {

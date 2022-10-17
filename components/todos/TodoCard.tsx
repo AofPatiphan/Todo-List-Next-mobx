@@ -1,4 +1,4 @@
-import todosStore from "../../../stores/todoStore"
+import todosStore from "../../stores/todoStore"
 import { observer } from 'mobx-react-lite'
 
 function TodoCard() {

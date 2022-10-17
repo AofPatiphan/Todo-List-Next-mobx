@@ -1,5 +1,5 @@
 import type { NextPage } from 'next'
-import TodosCompIndex from '../../components/todos/ui'
+import TodosCompIndex from '../../components/todos'
 
 
 const index: NextPage = () => {

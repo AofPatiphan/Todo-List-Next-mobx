@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import todosStore, { ITodoModel } from "../../../stores/todoStore"
+import todosStore, { ITodoModel } from "../../stores/todoStore"
 import { observer } from 'mobx-react-lite'
 
 interface Props {
